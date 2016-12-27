@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZEImageViewInitials'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZEImageViewInitials.'
+  s.summary          = 'This a simple UIImageView category.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: This pod is a UIImageView category that enables users of it to create an imagView displaying letters.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/ZEImageViewInitials'
+  s.homepage         = 'https://github.com/abdelrahman-badary/ZEImageViewInitials'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'abdelrahman-badary' => 'abdelrahman.badary@hotmail.com' }

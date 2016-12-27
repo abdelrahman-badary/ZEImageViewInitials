@@ -1,0 +1,16 @@
+PODS:
+  - ZEImageViewInitials (0.1.0)
+
+DEPENDENCIES:
+  - ZEImageViewInitials (from `../`)
+
+EXTERNAL SOURCES:
+  ZEImageViewInitials:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZEImageViewInitials: 86e5223c4357ca4eb57a20c06f4d6eb7928f83f7
+
+PODFILE CHECKSUM: 8fe71b2852afe35b08b63f475ea2a9bd8d6ba236
+
+COCOAPODS: 1.1.1

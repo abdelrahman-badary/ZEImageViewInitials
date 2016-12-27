@@ -1,0 +1,22 @@
+{
+  "name": "ZEImageViewInitials",
+  "version": "0.1.0",
+  "summary": "A short description of ZEImageViewInitials.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/ZEImageViewInitials",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "abdelrahman-badary": "abdelrahman.badary@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/ZEImageViewInitials.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZEImageViewInitials/Classes/**/*"
+}

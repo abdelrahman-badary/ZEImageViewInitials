@@ -1,0 +1,6 @@
+framework module Pods_ZEImageViewInitials_Example {
+  umbrella header "Pods-ZEImageViewInitials_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module ZEImageViewInitials {
+  umbrella header "ZEImageViewInitials-umbrella.h"
+
+  export *
+  module * { export * }
+}
