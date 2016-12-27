@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZEImageViewInitials_Example' do
+  pod 'ZEImageViewInitials', :path => '../'
+
+  target 'ZEImageViewInitials_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
