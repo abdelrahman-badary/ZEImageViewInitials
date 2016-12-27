@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10929DC5B5C78957B62BC139B81C9136 /* ZEImageViewInitials-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D25D49CECC25623E2CD2D24CE249F64A /* ZEImageViewInitials-dummy.m */; };
-		15DB6364801E94D57941EFF2332CDBAC /* ZEInitialsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BD2DF7C3DBC02C80AAC8516F22A980 /* ZEInitialsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27302B607E8D3A3379D8AF1B0D33E0E1 /* ZEInitialsView.m in Sources */ = {isa = PBXBuildFile; fileRef = E313E34D7B9D82069B3E1EBD9D4D6691 /* ZEInitialsView.m */; };
+		072A07C5D501095BFAD4CFAA4518A231 /* ZEInitialsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46BB539EE34C508C2DD50B10B416E4A2 /* ZEInitialsView.xib */; };
+		15DB6364801E94D57941EFF2332CDBAC /* ZEInitialsView.h in Headers */ = {isa = PBXBuildFile; fileRef = C72C93725C1B3D159B8455134F68A624 /* ZEInitialsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3465E6F9FEC1629B23B853FB5F85BF43 /* Pods-ZEImageViewInitials_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8AA77FBBBFFA090E9BF7B50851FBACC /* Pods-ZEImageViewInitials_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CAC2779A587FBB419151E900D9E100E /* ZEInitialsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA1B2CAD8CD888557B825FEB33335A31 /* ZEInitialsView.xib */; };
+		5A36CF896D3AE65BD5A644DBD28C7FBC /* ZEImageViewInitials-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D25D49CECC25623E2CD2D24CE249F64A /* ZEImageViewInitials-dummy.m */; };
+		5A9A51B9EB1D3ED3E60B9636393D0E15 /* ZEInitialsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A61D1E2BD89E0F526B0F1DEAB21D226 /* ZEInitialsView.m */; };
 		6B57DDAD3528462F05652EBC291D8B9B /* Pods-ZEImageViewInitials_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 286FC9D0A0FABA0ABD7804242D2DB264 /* Pods-ZEImageViewInitials_Tests-dummy.m */; };
 		6DE0FA9B3826873ED5C15E2CC161932E /* ZEImageViewInitials-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEFDDA789514E5BF1FB40589046386DA /* ZEImageViewInitials-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		798946F18BB692866D35FA164144618B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		991170AC97D09ED0256E02D408B0FCC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B20091FBA1A04611F28F576FCE2574D0 /* UIView+constraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C7201372F3E75BB0D66E199455C9AE /* UIView+constraints.m */; };
 		B6ECCD28630B71CFB3B33E86F21306B2 /* Pods-ZEImageViewInitials_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 194966A1AAAB70F0BE62A3C5194E622C /* Pods-ZEImageViewInitials_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFA4F9D191CA2ACB3560D22C0876576C /* ZEImageViewInitialsBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 126FE8E86E08ED32EE38A55408100444 /* ZEImageViewInitialsBundle.bundle */; };
-		C5E40CA1AD73BB532EA437A4F6A4370E /* UIView+constraints.m in Sources */ = {isa = PBXBuildFile; fileRef = A37F7FB19CB0F231168832502F35FA01 /* UIView+constraints.m */; };
 		C66E5B4B0C690B7EBBC8F920847850BE /* Pods-ZEImageViewInitials_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 102ECB79D6B96600352108ED1BD8A230 /* Pods-ZEImageViewInitials_Example-dummy.m */; };
-		C8CF897DDD8772B01582E99DDC3DDB5C /* UIView+constraints.h in Headers */ = {isa = PBXBuildFile; fileRef = AE89A59872BD8D726C728CAFBC226564 /* UIView+constraints.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8CF897DDD8772B01582E99DDC3DDB5C /* UIView+constraints.h in Headers */ = {isa = PBXBuildFile; fileRef = 6518A5B042A5B53DBE3D165D73FD9D8A /* UIView+constraints.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1FEF61597FCC6240D39DE24339D213E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,42 +44,42 @@
 /* Begin PBXFileReference section */
 		08AA8011131CDEB178A9D7ACDEEF8E59 /* Pods-ZEImageViewInitials_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZEImageViewInitials_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		102ECB79D6B96600352108ED1BD8A230 /* Pods-ZEImageViewInitials_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZEImageViewInitials_Example-dummy.m"; sourceTree = "<group>"; };
-		126FE8E86E08ED32EE38A55408100444 /* ZEImageViewInitialsBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZEImageViewInitialsBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		126FE8E86E08ED32EE38A55408100444 /* ZEImageViewInitialsBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZEImageViewInitialsBundle.bundle; path = ZEImageViewInitialsBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C7201372F3E75BB0D66E199455C9AE /* UIView+constraints.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+constraints.m"; sourceTree = "<group>"; };
 		194966A1AAAB70F0BE62A3C5194E622C /* Pods-ZEImageViewInitials_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZEImageViewInitials_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1B2DCB9F48068C4222BC011A6D6EDE07 /* Pods-ZEImageViewInitials_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZEImageViewInitials_Example.release.xcconfig"; sourceTree = "<group>"; };
 		23647771B474AD9DC13962AA7862037E /* ZEImageViewInitials-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZEImageViewInitials-prefix.pch"; sourceTree = "<group>"; };
-		27B771727E145907C0AF02D8AB28CF05 /* Pods_ZEImageViewInitials_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZEImageViewInitials_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27B771727E145907C0AF02D8AB28CF05 /* Pods_ZEImageViewInitials_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZEImageViewInitials_Tests.framework; path = "Pods-ZEImageViewInitials_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		286FC9D0A0FABA0ABD7804242D2DB264 /* Pods-ZEImageViewInitials_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZEImageViewInitials_Tests-dummy.m"; sourceTree = "<group>"; };
-		37BD2DF7C3DBC02C80AAC8516F22A980 /* ZEInitialsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZEInitialsView.h; sourceTree = "<group>"; };
 		3932F0DF496DAE61324867DD61CFC239 /* ResourceBundle-ZEImageViewInitialsBundle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZEImageViewInitialsBundle-Info.plist"; sourceTree = "<group>"; };
 		3E129C05C10A2EB4CB0CB2A4F5BE2FF7 /* Pods-ZEImageViewInitials_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZEImageViewInitials_Example-resources.sh"; sourceTree = "<group>"; };
 		447CD4C538C2A556589F0E33052C0E3F /* ZEImageViewInitials.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZEImageViewInitials.xcconfig; sourceTree = "<group>"; };
+		46BB539EE34C508C2DD50B10B416E4A2 /* ZEInitialsView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ZEInitialsView.xib; sourceTree = "<group>"; };
+		4A61D1E2BD89E0F526B0F1DEAB21D226 /* ZEInitialsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZEInitialsView.m; sourceTree = "<group>"; };
 		582EC2EADF3BFFF12E7ECA503D85DC73 /* Pods-ZEImageViewInitials_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZEImageViewInitials_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6518A5B042A5B53DBE3D165D73FD9D8A /* UIView+constraints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+constraints.h"; sourceTree = "<group>"; };
 		6625D4DBB523B4ED09A3951707211E9D /* Pods-ZEImageViewInitials_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZEImageViewInitials_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6A6002A070F256E446C1F9C48A1C3C44 /* Pods-ZEImageViewInitials_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZEImageViewInitials_Tests.modulemap"; sourceTree = "<group>"; };
+		6A6002A070F256E446C1F9C48A1C3C44 /* Pods-ZEImageViewInitials_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZEImageViewInitials_Tests.modulemap"; sourceTree = "<group>"; };
 		6B00F802549313B3C107B1981FB6476D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		732B87BCEC359F441C8B2916379F7996 /* ZEImageViewInitials.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZEImageViewInitials.modulemap; sourceTree = "<group>"; };
-		74DE415DCC756F8BE3B663E35602FBF6 /* Pods_ZEImageViewInitials_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZEImageViewInitials_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		732B87BCEC359F441C8B2916379F7996 /* ZEImageViewInitials.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZEImageViewInitials.modulemap; sourceTree = "<group>"; };
+		74DE415DCC756F8BE3B663E35602FBF6 /* Pods_ZEImageViewInitials_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZEImageViewInitials_Example.framework; path = "Pods-ZEImageViewInitials_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8A8A15EC9EEE8CDA9393D4E4486248 /* Pods-ZEImageViewInitials_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZEImageViewInitials_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		86EF1C51AA35BF6CD0E688B2F0B859A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C0FD9AA326BDE2D07018FD8E7A17D1C /* Pods-ZEImageViewInitials_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZEImageViewInitials_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A37F7FB19CB0F231168832502F35FA01 /* UIView+constraints.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+constraints.m"; sourceTree = "<group>"; };
 		A638217D6270154F785E7F4492279F39 /* Pods-ZEImageViewInitials_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZEImageViewInitials_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AA66207E551446344D14AE02FD5771D8 /* Pods-ZEImageViewInitials_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZEImageViewInitials_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ADB3D7A4F8D3B5F801A8F241E029E550 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE89A59872BD8D726C728CAFBC226564 /* UIView+constraints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+constraints.h"; sourceTree = "<group>"; };
 		BFEC850B76F0674EF6CB0E512E922528 /* Pods-ZEImageViewInitials_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZEImageViewInitials_Tests-resources.sh"; sourceTree = "<group>"; };
+		C72C93725C1B3D159B8455134F68A624 /* ZEInitialsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZEInitialsView.h; sourceTree = "<group>"; };
 		C8AA77FBBBFFA090E9BF7B50851FBACC /* Pods-ZEImageViewInitials_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZEImageViewInitials_Example-umbrella.h"; sourceTree = "<group>"; };
-		CA1B2CAD8CD888557B825FEB33335A31 /* ZEInitialsView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ZEInitialsView.xib; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D25D49CECC25623E2CD2D24CE249F64A /* ZEImageViewInitials-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZEImageViewInitials-dummy.m"; sourceTree = "<group>"; };
-		D6A7C8C4992C749D32D41CDCC7DADC64 /* ZEImageViewInitials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZEImageViewInitials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A7C8C4992C749D32D41CDCC7DADC64 /* ZEImageViewInitials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZEImageViewInitials.framework; path = ZEImageViewInitials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFDDA789514E5BF1FB40589046386DA /* ZEImageViewInitials-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZEImageViewInitials-umbrella.h"; sourceTree = "<group>"; };
-		E313E34D7B9D82069B3E1EBD9D4D6691 /* ZEInitialsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZEInitialsView.m; sourceTree = "<group>"; };
 		F13F41151D0E065A1BCF5835375B9FF0 /* Pods-ZEImageViewInitials_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZEImageViewInitials_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F7C1CE9B6F755B0C9ED5DB2D53F47655 /* Pods-ZEImageViewInitials_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZEImageViewInitials_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F8DD154A9A00F2082018CC333EECD7F3 /* Pods-ZEImageViewInitials_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZEImageViewInitials_Example.modulemap"; sourceTree = "<group>"; };
+		F8DD154A9A00F2082018CC333EECD7F3 /* Pods-ZEImageViewInitials_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZEImageViewInitials_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,15 +117,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03DB4995FC7746FB2D5B31E12402B783 /* Classes */ = {
+		0CCD71F5F0B3545B382081F49BE1131C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AE89A59872BD8D726C728CAFBC226564 /* UIView+constraints.h */,
-				A37F7FB19CB0F231168832502F35FA01 /* UIView+constraints.m */,
-				37BD2DF7C3DBC02C80AAC8516F22A980 /* ZEInitialsView.h */,
-				E313E34D7B9D82069B3E1EBD9D4D6691 /* ZEInitialsView.m */,
+				2A86A81347610C8595634929B8C60D32 /* ZEImageViewInitials */,
 			);
-			path = Classes;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		1E96D59414A276F71F587C63A57CF4A6 /* Support Files */ = {
@@ -143,12 +140,21 @@
 			path = "Example/Pods/Target Support Files/ZEImageViewInitials";
 			sourceTree = "<group>";
 		};
+		2A86A81347610C8595634929B8C60D32 /* ZEImageViewInitials */ = {
+			isa = PBXGroup;
+			children = (
+				46BB539EE34C508C2DD50B10B416E4A2 /* ZEInitialsView.xib */,
+			);
+			name = ZEImageViewInitials;
+			path = ZEImageViewInitials;
+			sourceTree = "<group>";
+		};
 		39618CB4E7517AE8ECA1F6740F703ACB /* ZEImageViewInitials */ = {
 			isa = PBXGroup;
 			children = (
-				5DC00CEE14026FF10A8CBEC378518BA1 /* Resources */,
+				0CCD71F5F0B3545B382081F49BE1131C /* Resources */,
 				1E96D59414A276F71F587C63A57CF4A6 /* Support Files */,
-				AF716454FCC2EBF60C6B03B1B4D0175E /* ZEImageViewInitials */,
+				EADF3B55EE0FC92B15E9144CBE1D91BF /* ZEImageViewInitials */,
 			);
 			name = ZEImageViewInitials;
 			path = ../..;
@@ -180,12 +186,16 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		5DC00CEE14026FF10A8CBEC378518BA1 /* Resources */ = {
+		58A682999229F5E9C1C548F7395820C1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FB1C587EFD9F9F780593196ED51C00F3 /* ZEImageViewInitials */,
+				6518A5B042A5B53DBE3D165D73FD9D8A /* UIView+constraints.h */,
+				12C7201372F3E75BB0D66E199455C9AE /* UIView+constraints.m */,
+				C72C93725C1B3D159B8455134F68A624 /* ZEInitialsView.h */,
+				4A61D1E2BD89E0F526B0F1DEAB21D226 /* ZEInitialsView.m */,
 			);
-			name = Resources;
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -205,21 +215,6 @@
 				F4FBE6F50B6FDFE332AE08A61AC44DD0 /* Products */,
 				DB7F7C586FF4E143E7686C376545C195 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7F43DD302338C919D447F2B8FCCD5BCD /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		AF716454FCC2EBF60C6B03B1B4D0175E /* ZEImageViewInitials */ = {
-			isa = PBXGroup;
-			children = (
-				03DB4995FC7746FB2D5B31E12402B783 /* Classes */,
-			);
-			path = ZEImageViewInitials;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -257,6 +252,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		EADF3B55EE0FC92B15E9144CBE1D91BF /* ZEImageViewInitials */ = {
+			isa = PBXGroup;
+			children = (
+				58A682999229F5E9C1C548F7395820C1 /* Classes */,
+			);
+			name = ZEImageViewInitials;
+			path = ZEImageViewInitials;
+			sourceTree = "<group>";
+		};
 		F4FBE6F50B6FDFE332AE08A61AC44DD0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -266,15 +270,6 @@
 				126FE8E86E08ED32EE38A55408100444 /* ZEImageViewInitialsBundle.bundle */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		FB1C587EFD9F9F780593196ED51C00F3 /* ZEImageViewInitials */ = {
-			isa = PBXGroup;
-			children = (
-				CA1B2CAD8CD888557B825FEB33335A31 /* ZEInitialsView.xib */,
-				7F43DD302338C919D447F2B8FCCD5BCD /* Classes */,
-			);
-			path = ZEImageViewInitials;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,7 +326,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA9A26389A1366C7D832FBD794DF740F /* Build configuration list for PBXNativeTarget "ZEImageViewInitials" */;
 			buildPhases = (
-				9AEE9F6F8EDECA7F46DC19D9B1BA0A8A /* Sources */,
+				0AB5B3F834AD2F9175B534C8F5C38C69 /* Sources */,
 				ABFA33D856E44175F0680410124E7E77 /* Frameworks */,
 				854C3E27FE6A26F877571017BE6A7169 /* Resources */,
 				CD40B84EB06769727F2F6453BCAB89EB /* Headers */,
@@ -352,7 +347,7 @@
 			buildPhases = (
 				F3252FE9BEF2BD8579EE3AF5E60A0657 /* Sources */,
 				3A4A49FBD2FF002FD5E9E7B23CB4219D /* Frameworks */,
-				9B5BC57C17B504FE24B3C1794CB4F6F4 /* Resources */,
+				1D61670E60C13675A22A46E56AADB8A1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -410,6 +405,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1D61670E60C13675A22A46E56AADB8A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072A07C5D501095BFAD4CFAA4518A231 /* ZEInitialsView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		854C3E27FE6A26F877571017BE6A7169 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -418,17 +421,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B5BC57C17B504FE24B3C1794CB4F6F4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CAC2779A587FBB419151E900D9E100E /* ZEInitialsView.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0AB5B3F834AD2F9175B534C8F5C38C69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20091FBA1A04611F28F576FCE2574D0 /* UIView+constraints.m in Sources */,
+				5A36CF896D3AE65BD5A644DBD28C7FBC /* ZEImageViewInitials-dummy.m in Sources */,
+				5A9A51B9EB1D3ED3E60B9636393D0E15 /* ZEInitialsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1570D33E62AE226E9158C141AAA0F5FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -442,16 +447,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C66E5B4B0C690B7EBBC8F920847850BE /* Pods-ZEImageViewInitials_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9AEE9F6F8EDECA7F46DC19D9B1BA0A8A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C5E40CA1AD73BB532EA437A4F6A4370E /* UIView+constraints.m in Sources */,
-				10929DC5B5C78957B62BC139B81C9136 /* ZEImageViewInitials-dummy.m in Sources */,
-				27302B607E8D3A3379D8AF1B0D33E0E1 /* ZEInitialsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
