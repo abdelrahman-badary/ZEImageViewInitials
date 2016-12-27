@@ -1,9 +1,9 @@
 {
   "name": "ZEImageViewInitials",
   "version": "0.1.0",
-  "summary": "A short description of ZEImageViewInitials.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/ZEImageViewInitials",
+  "summary": "This a simple UIImageView category.",
+  "description": "TODO: This pod is a UIImageView category that enables users of it to create an imagView displaying letters.",
+  "homepage": "https://github.com/abdelrahman-badary/ZEImageViewInitials",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZEImageViewInitials/Classes/**/*"
+  "source_files": "ZEImageViewInitials/Classes/**/*",
+  "resource_bundles": {
+    "ZEImageViewInitialsBundle": [
+      "ZEImageViewInitials/**/*.xib"
+    ]
+  }
 }
