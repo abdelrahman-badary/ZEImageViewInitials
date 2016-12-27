@@ -32,9 +32,9 @@ TODO: This pod is a UIImageView category that enables users of it to create an i
 
   s.source_files = 'ZEImageViewInitials/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ZEImageViewInitials' => ['ZEImageViewInitials/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'ZEImageViewInitialsBundle' => ['ZEImageViewInitials/**/*.xib']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
