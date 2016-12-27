@@ -30,7 +30,7 @@
 
 -(void)load
 {
-   // UIView * view = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"ZEInitialsView" owner:self options:nil] firstObject];
+  
     NSBundle * podBundle = [NSBundle bundleForClass:self.class];
     NSURL *bundleURL = [podBundle URLForResource:@"ZEImageViewInitialsBundle" withExtension:@"bundle"];
     NSBundle *nb = [NSBundle bundleWithURL:bundleURL];
@@ -43,6 +43,23 @@
     [self addConstraint:[self pin:view attribute:NSLayoutAttributeLeft]];
     [self addConstraint:[self pin:view attribute:NSLayoutAttributeBottom]];
     [self addConstraint:[self pin:view attribute:NSLayoutAttributeRight]];
+}
+
+#pragma mark - MMNSearchView proprties
+-(void)setCornerRadius:(NSInteger)cornerRadius
+{
+    self.layer.cornerRadius = cornerRadius ;
+    self.clipsToBounds = YES ;
+}
+
+-(void)setBorderThickniss:(NSInteger)borderThickniss
+{
+    self.layer.borderWidth = borderThickniss ;
+}
+
+-(void)setBorderColor:(UIColor *)borderColor
+{
+    self.layer.borderColor = borderColor.CGColor ;
 }
 /*
 // Only override drawRect: if you perform custom drawing.

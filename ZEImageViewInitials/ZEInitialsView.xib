@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11201"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -13,17 +13,28 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="up2-Wp-74i">
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AB" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qFO-pB-zSC">
+                            <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                            <color key="textColor" red="0.99989169840000003" green="1" blue="0.99988096950000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="81" id="3VQ-um-8Jo"/>
-                        <constraint firstAttribute="width" constant="196" id="crR-UR-MGj"/>
+                        <constraint firstItem="qFO-pB-zSC" firstAttribute="leading" secondItem="up2-Wp-74i" secondAttribute="leading" constant="8" id="6L6-Zx-M0m"/>
+                        <constraint firstAttribute="bottom" secondItem="qFO-pB-zSC" secondAttribute="bottom" constant="8" id="AaX-9s-IAS"/>
+                        <constraint firstAttribute="trailing" secondItem="qFO-pB-zSC" secondAttribute="trailing" constant="8" id="h3B-lY-hYi"/>
+                        <constraint firstItem="qFO-pB-zSC" firstAttribute="top" secondItem="up2-Wp-74i" secondAttribute="top" constant="8" id="oEE-tr-ZmK"/>
                     </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" red="0.64120490860000001" green="0.51166839190000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="up2-Wp-74i" firstAttribute="centerX" secondItem="ZR5-X1-qDf" secondAttribute="centerX" id="M7G-yl-ydK"/>
-                <constraint firstItem="up2-Wp-74i" firstAttribute="centerY" secondItem="ZR5-X1-qDf" secondAttribute="centerY" id="THc-o2-Xfx"/>
+                <constraint firstAttribute="trailing" secondItem="up2-Wp-74i" secondAttribute="trailing" constant="16" id="Lbp-ZT-MnX"/>
+                <constraint firstItem="up2-Wp-74i" firstAttribute="top" secondItem="ZR5-X1-qDf" secondAttribute="top" constant="20" id="PVV-Mv-oEO"/>
+                <constraint firstItem="up2-Wp-74i" firstAttribute="leading" secondItem="ZR5-X1-qDf" secondAttribute="leading" constant="16" id="bFm-8A-ZP1"/>
+                <constraint firstAttribute="bottom" secondItem="up2-Wp-74i" secondAttribute="bottom" constant="20" id="kG5-i1-Pza"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
