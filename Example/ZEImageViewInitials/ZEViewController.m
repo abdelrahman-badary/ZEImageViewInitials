@@ -20,6 +20,14 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+}
+- (IBAction)didTapAddImageBtn:(id)sender {
+    [[self.initialsView avatarImageView] setImage:[UIImage imageNamed:@"empty_avatar.jpg"]];
+
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
