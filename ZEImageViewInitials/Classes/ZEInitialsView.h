@@ -6,9 +6,8 @@
 //
 //
 
-#import <UIKit/UIKit.h>
 #import "UIView+constraints.h"
-
+#import "ZERandomColorGenerator.h"
 
 IB_DESIGNABLE
 @interface ZEInitialsView : UIView
@@ -17,11 +16,12 @@ IB_DESIGNABLE
 @property (assign , nonatomic) IBInspectable UIColor * borderColor ;
 @property (assign , nonatomic) IBInspectable NSInteger cornerRadius ;
 @property (assign , nonatomic) IBInspectable NSString * name;
-@property (assign , nonatomic) IBInspectable BOOL randomColors;
 @property (assign , nonatomic) IBInspectable UIColor * defaultColor;
+@property (assign , nonatomic)IBInspectable UIColor * fontColor;
 @property (weak, nonatomic) IBOutlet UIImageView *avatarImageView;
 
-
++(void)setColorsSet:(NSArray <UIColor *>*)colorsSet;
++(void)userDefaultColorSet;
 
 
 @end

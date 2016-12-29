@@ -14,55 +14,74 @@
 @property (strong , nonatomic) UIView * containerView;
 @property (weak, nonatomic) IBOutlet UILabel *initialsLabel;
 @property (strong , nonatomic) NSArray * colors;
+@property (strong , nonatomic) ZERandomColorGenerator * colorGenerator;
 
 @end
 
 @implementation ZEInitialsView
-@synthesize containerView  , avatarImageView, randomColors ;
+@synthesize containerView  , avatarImageView , defaultColor , colorGenerator ;
+
 -(instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if(self)
     {
-        [self load];
+        [self initView];
     }
     return self;
 }
+
 -(instancetype)initWithCoder:(NSCoder *)aDecoder
 {
     self = [super initWithCoder:aDecoder];
     if(self)
     {
-        [self load];
+        [self initView];
     }
     return self;
 }
 
--(void)load
+-(void)initView
 {
-    randomColors = YES;
-    NSBundle * podBundle = [NSBundle bundleForClass:self.class];
-    NSURL *bundleURL = [podBundle URLForResource:@"ZEImageViewInitialsBundle" withExtension:@"bundle"];
-    NSBundle *nb = [NSBundle bundleWithURL:bundleURL];
-    containerView = [[nb loadNibNamed:@"ZEInitialsView" owner:self options:nil] firstObject];
-    UIColor * color1 = [UIColor colorWithRed:243.0f/255.0f green:144.0f/255.0f blue:203.0f/255.0f alpha:1.0f];
-
-        UIColor * color2 = [UIColor colorWithRed:62.0f/255.0f green:160.0f/255.0f blue:240.0f/255.0f alpha:1.0f];
-    if(!_defaultColor)
-        containerView.backgroundColor = color1;
-    else
-        containerView.backgroundColor = _defaultColor;
-    
-    
+    containerView = [self getContainerViewFromNib];
+    colorGenerator = [ZERandomColorGenerator sharedInstance];
     [self addSubview:containerView] ;
+    [self addLayoutConstraintsToContainerView];
+    [self setContainerViewBackgroundColor];
+}
+
+-(UIView *)getContainerViewFromNib
+{
+    NSBundle * customBundle = [NSBundle bundleForClass:self.class];
+    NSURL *customBundleURL = [customBundle URLForResource:@"ZEImageViewInitialsBundle" withExtension:@"bundle"];
+    
+    NSBundle *podBundle = [NSBundle bundleWithURL:customBundleURL];
+    UIView * view = [[podBundle loadNibNamed:@"ZEInitialsView" owner:self options:nil] firstObject];
+    
+    return view;
+}
+-(void)addLayoutConstraintsToContainerView
+{
     containerView.translatesAutoresizingMaskIntoConstraints = NO;
     [self addConstraint:[self pin:containerView attribute:NSLayoutAttributeTop]];
     [self addConstraint:[self pin:containerView attribute:NSLayoutAttributeLeft]];
     [self addConstraint:[self pin:containerView attribute:NSLayoutAttributeBottom]];
     [self addConstraint:[self pin:containerView attribute:NSLayoutAttributeRight]];
-    [_initialsView sizeToFit];
-
 }
+-(void)setContainerViewBackgroundColor
+{
+    if(defaultColor)
+    {
+        [containerView setBackgroundColor:defaultColor];
+    }
+    else
+    {
+        [containerView setBackgroundColor:[colorGenerator getRandomColor]];
+    }
+}
+
+
+
 -(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context
 {
     if(keyPath == @"image")
@@ -74,7 +93,7 @@
         }
     }
 }
-#pragma mark - MMNSearchView proprties
+#pragma mark - MMNSearchView proprtie setters
 -(void)setCornerRadius:(NSInteger)cornerRadius
 {
     self.layer.cornerRadius = cornerRadius ;
@@ -95,19 +114,20 @@
 -(void)setName:(NSString *)name
 {
     self.initialsLabel.text = name;
-    NSString * asd = name ;
-
+}
+-(void)setFontColor:(UIColor *)fontColor
+{
+    [self.initialsLabel setTextColor:fontColor];
 }
 
 
--(void)generateColorsArray
++(void)setColorsSet:(NSArray<UIColor *> *)colorsSet
 {
-    UIColor * color1 = [UIColor colorWithRed:243.0f/255.0f green:144.0f/255.0f blue:203.0f/255.0f alpha:1.0f];
-    
-    UIColor * color2 = [UIColor colorWithRed:62.0f/255.0f green:160.0f/255.0f blue:240.0f/255.0f alpha:1.0f];
-    
-    
-    
+    [[ZERandomColorGenerator sharedInstance] setColorsSet:colorsSet];
+}
++(void)userDefaultColorSet
+{
+
 }
 /*
 // Only override drawRect: if you perform custom drawing.
