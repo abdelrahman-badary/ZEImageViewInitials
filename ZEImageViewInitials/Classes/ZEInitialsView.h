@@ -8,13 +8,19 @@
 
 #import <UIKit/UIKit.h>
 #import "UIView+constraints.h"
+
+
 IB_DESIGNABLE
 @interface ZEInitialsView : UIView
 
-@property (assign , nonatomic) IBInspectable NSInteger borderThickniss ;
+@property (assign , nonatomic) IBInspectable NSInteger borderWidth;
 @property (assign , nonatomic) IBInspectable UIColor * borderColor ;
 @property (assign , nonatomic) IBInspectable NSInteger cornerRadius ;
-@property  IBInspectable BOOL randomBackgroundColor ;
+@property (assign , nonatomic) IBInspectable NSString * name;
+@property (assign , nonatomic) IBInspectable BOOL randomColors;
+@property (assign , nonatomic) IBInspectable UIColor * defaultColor;
+@property (weak, nonatomic) IBOutlet UIImageView *avatarImageView;
+
 
 
 
