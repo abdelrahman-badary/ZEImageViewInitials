@@ -7,12 +7,14 @@
 //
 
 #import "ZEAppDelegate.h"
-
+#import <ZEImageViewInitials/ZEInitialsView.h>
 @implementation ZEAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    UIColor * color = [UIColor colorWithRed:213.0f/255.0f green:124.0f/255.0f blue:152.0f/255.0f alpha:1.0f];
+    [ZEInitialsView setColorsSet:[NSArray arrayWithObject:color]];
     return YES;
 }
 
