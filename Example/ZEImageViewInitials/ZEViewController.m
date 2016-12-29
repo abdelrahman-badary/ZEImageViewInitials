@@ -19,6 +19,11 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
+-(void)viewWillLayoutSubviews
+{
+    [super viewWillLayoutSubviews];
+    
+}
 
 -(void)viewDidAppear:(BOOL)animated
 {
